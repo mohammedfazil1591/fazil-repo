@@ -37,5 +37,5 @@ pipeline:
                   spec:
                     shell: Bash
                     command: |-
-                      mvn -B clean package
-                      mvn -B test
+                      ls -l /harness/fazil-repo
+                      cat /harness/fazil-repo/sample.txt
