@@ -1,0 +1,14 @@
+inputSet:
+  name: Main Branch
+  identifier: Main_Branch
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: CIPipeline121225
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
