@@ -37,5 +37,7 @@ pipeline:
                   spec:
                     shell: Bash
                     command: |-
-                      ls -l /harness/fazil-repo
-                      cat /harness/fazil-repo/sample.txt
+                      echo "Listing files in repo:"
+                      ls -l
+                      echo "Contents of sample.txt:"
+                      cat sample.txt
